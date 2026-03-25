@@ -1,0 +1,37 @@
+.table-container { overflow-x: auto; }
+.clients-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+.clients-table th {
+  background: #f8f9fa;
+  padding: 12px;
+  text-align: left;
+  font-weight: 600;
+  cursor: pointer;
+  user-select: none;
+  border-bottom: 2px solid #e0e0e0;
+}
+.clients-table th:hover { background: #e9ecef; }
+.clients-table td { padding: 12px; border-bottom: 1px solid #e0e0e0; }
+.clients-table tr:hover { background: #f8f9fa; }
+.expired-row { background: #fff3cd !important; }
+.expired-date { color: #dc3545; font-weight: bold; }
+.price-cell { font-weight: 600; color: #28a745; white-space: nowrap; }
+.btn-edit, .btn-delete {
+  padding: 5px 10px;
+  margin: 0 5px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+.btn-edit { background: #28a745; color: white; }
+.btn-delete { background: #dc3545; color: white; }
+.empty-state {
+  text-align: center;
+  padding: 60px;
+  color: #999;
+}
+.empty-icon { font-size: 64px; margin-bottom: 20px; }
